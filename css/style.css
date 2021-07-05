@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: 0 20%;
+    background-color: lightblue;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.header-container{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px 0;
+}
+
+
+.card {
+    display: inline-block;
+    width: 215px;
+    height: 250px;
+    background-color: red;
+    margin: 15px 10px;
+    border-radius: 10px;
+}
+
+
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
