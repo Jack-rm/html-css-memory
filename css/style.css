@@ -9,10 +9,6 @@ body{
     background-color: lightblue;
 }
 
-.main-container{
-    text-align: center;
-}
-
 .header-container{
     text-align: center;
     text-transform: uppercase;
@@ -20,23 +16,35 @@ body{
     margin: 20px 0;
 }
 
+.row{
+    text-align: center;
+    position: relative;
+}
 
 .card {
     display: inline-block;
     width: 215px;
     height: 250px;
-    background-color: red;
-    margin: 15px 10px;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
+    position: relative;
+    margin: 10px;
 }
 
-
-.clearfix{
-    content:"";
-    display: table;
-    clear: both;
+.card-revealed{
+    display: none;
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
-.float-left{
-    float: left;
+.card:hover .card-revealed{
+    display: block;
 }
