@@ -8,7 +8,6 @@ body{
     margin: 0 20%;
     background-color: lightblue;
     font-family: 'Otomanopee One', sans-serif;
-    font-family: 'Patrick Hand', cursive;
 }
 
 #header-container{
@@ -38,7 +37,7 @@ body{
     border-radius: 10px;
     position: relative;
     margin: 10px;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.20), 0 3px 3px rgba(0,0,0,0.20);
 }
 
 .card-revealed{
@@ -64,15 +63,42 @@ body{
 }
 
 .card-tag{
-    position: absolute;
-    bottom: 30px;
-    left: 85px;
+    position: relative;
+    bottom: 40px;
+    left: 0px;
+    font-size: 23px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgb(175, 175, 175);
 }
 
 #main-container{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #footer-container{
     text-align: center;
+}
+
+.violet{
+    color: violet;
+}
+
+.orange{
+    color: orange;
+}
+
+.chartreuse{
+    color: chartreuse;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: rgb(250, 50, 50);
 }
